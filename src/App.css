@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.left {
+  width: 120px;
+  float: left;
+  border-right: 1px solid #cdcdcd;
+  background-color: #f1f1f1;
+  overflow: auto;
+  height: 100vh;
+  background: #001529;
+}
+.left nav {
+  padding: 16px 0px;
+  width: 100%;
+  list-style-type: none;
+}
+.left nav a {
+  text-align: left;
+  line-height: 50px;
+  color: #f1f1f1;
+  font-size: 14px;
+  text-decoration:none;
+  display: block;
+}
+.left nav span {
+  padding-left: 20px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.userInfo {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.activeNav {
+  color: #fff;
+  font-size: 16px;
+  background-color: #1890ff;
+  display: inline-block;
+}
+
+.list li {
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+.list span {
+  text-align: right;
+  float: right;
+  margin-right: 30px;
+}
+.list input {
+  margin-right: 10px;
+}
